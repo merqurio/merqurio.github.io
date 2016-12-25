@@ -20,5 +20,6 @@ How do you evaluate (without a human in the middle) that someone is independent 
 
 What if the output to the sum of the medical conditions of a patient is a treatment that will only longer it's suffering. Is the algorithm pretrained on that too? What if due to the way you trained your algorithm you stop treating people with a chance of surviving ? This are everyday ethical questions that [EOLC](https://en.wikipedia.org/wiki/End-of-life_care) MD must confront. Not strange outliers.
 
-I think that every AI related worker itself should be advocating for the human control of outliers, of discrimination, being conscient that not every situation is addressable beforehand. I really want to help doctors on being AI enhanced doctors, but in the end, I want human making the decision. Not pretrained neural network.
+![db19e426beae41ead9b612243ce92248.jpg](/uploads/db19e426beae41ead9b612243ce92248.jpg)
 
+I think that every AI related worker itself should be advocating for the human control of outliers, of discrimination, being conscient that not every situation is addressable beforehand. Medical data right now it's lacking of good tagging and modeling. I really want to help doctors on being AI enhanced doctors, but in the end, I want human making the decision. Not pretrained neural network.

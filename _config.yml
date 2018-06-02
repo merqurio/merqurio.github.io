@@ -1,6 +1,6 @@
 # Theme settings
 doks:
-    baseurl: https://merqur.io 
+    baseurl: http://merqur.io 
     color_theme: blue # Available themes: blue (default), green, purple, red and yellow
     header:
         logo:

@@ -1,0 +1,85 @@
+---
+# Page settings
+layout: default
+comments: false
+
+# Hero section
+title: Hi there ! I'm Gabi
+description: Medicine and coding is my thing.
+
+---
+
+I am medical doctor (M.D.) by training and mathematician by accident. During my
+work as a researcher I found out that I could fusion both passions. I started
+studying mathematics while developing my career as a doctor and today I work at
+the intersection of medicine and machine learning.
+
+That means that I use numbers to understand patients and diseases better. I
+work with large amounts of data to build tools that help us to contextualize
+all the information and make better decisions. I think it's the cross section
+between medicine and data driven technologies the one that will set the pace
+of the medicine of the future.
+
+I'm very active in the Python and data science community and I really enjoy
+working on open source projects. I do organize datathons sometimes as it's a
+greage excuse to meet people.
+
+
+### Public GPG
+If you want to contact me in a private manner just use my public key to encrypt
+your stuff. 
+
+```
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+3nEgHwIuOWzUoAe61pE/9TCHCojz
+=iWFU
+-----END PGP PUBLIC KEY BLOCK-----
+```

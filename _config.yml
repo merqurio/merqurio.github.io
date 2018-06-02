@@ -1,0 +1,39 @@
+# Theme settings
+doks:
+    baseurl: https://merqur.io 
+    color_theme: blue # Available themes: blue (default), green, purple, red and yellow
+    header:
+        logo:
+            text: merqur.io
+            image:
+        nav:
+            - item_name: About
+              item_url: '/about'
+    footer:
+        content:
+            logo:
+                text: merqur.io
+                image:
+            copyright: Copyright &copy; 2014-2018. - Gabriel de Maeztu <br>All rights reserved. 
+        social_list:
+            - network_name: twitter
+              profile_url: 'https://twitter.com/gabimaeztu'
+            - network_name: linkedin
+              profile_url: 'https://www.linkedin.com/in/gabrieldemaeztu/'
+            - network_name: github
+              profile_url: 'https://github.com/merqurio/'
+            - network_name: gitlab
+              profile_url: 'https://gitlab.com/merqurio'
+    google_analytics:
+        tracking_code: UA-25316413-7
+
+# SASS settings
+sass:
+    sass_dir: ./_sass
+    style: :compressed
+
+# Jekyll settings
+layouts_dir: ./_layouts
+includes_dir: ./_includes
+exclude: [ 'README.md', 'CHANGELOG.md' ]
+permalink: pretty

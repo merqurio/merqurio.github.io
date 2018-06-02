@@ -1,0 +1,48 @@
+/**
+ * Gray (themes/_gray.scss)
+ */
+
+/* ----- Hero subheader ----- */
+.gray {
+	.hero-subheader {
+		background-color: $color-theme-gray;
+	}
+}
+
+/* ----- Nav grid ----- */
+.gray {
+	.nav-grid__item {
+		background-color: $color-theme-gray;
+
+		&:hover,
+		&:active,
+		&:focus {
+			background-color: $color-theme-gray;
+		}
+	}
+}
+
+/* ----- Section ----- */
+.gray {
+	.section--darker-theme-color-bg {
+		background-color: darken($color-theme-gray, 3%);
+	}
+}
+
+/* ----- Page nav ----- */
+.gray {
+	.page-nav {
+		background-color: $color-theme-gray;
+	}
+}
+
+/* ----- Error 404 ----- */
+.gray {
+	&.error-404 {
+		background-color: $color-theme-gray;
+	}
+}
+
+.site-header {
+	border-bottom: none;
+}

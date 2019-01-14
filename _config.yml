@@ -1,6 +1,6 @@
 # Theme settings
 doks:
-    baseurl: http://merqur.io 
+    baseurl: //merqur.io
     color_theme: gray # Available themes: blue (default), green, purple, red and yellow
     header:
         logo:
@@ -14,7 +14,7 @@ doks:
             logo:
                 text: merqur.io
                 image:
-            copyright: Copyright &copy; 2014-2018. - Gabriel de Maeztu <br>All rights reserved. 
+            copyright: Copyright &copy; 2014-2018. - Gabriel de Maeztu <br>All rights reserved.
         social_list:
             - network_name: twitter
               profile_url: 'https://twitter.com/gabimaeztu'

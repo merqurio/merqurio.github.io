@@ -1,0 +1,33 @@
+blockquote {
+
+  background: $color-theme-gray;
+  border-left: 10px solid $color-dark-blue;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  font-family: Georgia, serif;
+  padding: 30px;
+  font-size: 20px;
+  line-height: 36px;
+
+  a {
+    display: block;
+    margin-top: 33px;
+    border-bottom: none;
+  }
+
+  &:before {
+    color: $color-dark-blue;
+    content: open-quote;
+    font-family: serif;
+    font-size: 5em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+
+  }
+
+  p {
+    display: inline;
+  }
+}

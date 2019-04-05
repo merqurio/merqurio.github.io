@@ -14,7 +14,7 @@ doks:
             logo:
                 text: merqur.io
                 image:
-            copyright: Copyright &copy; 2014-2018. - Gabriel de Maeztu <br>All rights reserved.
+            copyright: Copyright &copy; 2014-2019. - Gabriel de Maeztu <br>All rights reserved.
         social_list:
             - network_name: twitter
               profile_url: 'https://twitter.com/gabimaeztu'
@@ -30,7 +30,7 @@ doks:
 # SASS settings
 sass:
     sass_dir: ./_sass
-    style: :compressed
+    style: compressed
 
 # Jekyll settings
 layouts_dir: ./_layouts

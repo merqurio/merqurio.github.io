@@ -4,13 +4,9 @@ date: 2015-03-30 00:00:00 Z
 layout: post
 ---
 
-While studying my career I had a really hard time in the 4th year when all my
-habits and study methods became useless. Here is a little collection of things
-that helped me to create new methods.
-
-I hope they can help you too.
-
-I'll be updating this in a regular basis.
+I had a hard time during my career to keep up with everything I had to learn.
+My habits were to blame. Here is a little collection of tricks that helped me
+to create new habits.
 
 ## Index
 1. [Types of attention](#1)

@@ -9,6 +9,8 @@ doks:
         nav:
             - item_name: About
               item_url: '/about'
+            - item_name: Blog
+              item_url: '/'
     footer:
         content:
             logo:

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Onboarding a Hospital onto OMOP: Lessons in Data Mapping and Collaboration"
+title: "What \"Data Ready\" Really Means for a Hospital"
 date: 2021-05-10 09:00:00 +0100
 tags:
   - omop

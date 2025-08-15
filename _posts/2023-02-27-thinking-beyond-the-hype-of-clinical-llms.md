@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Advent of Clinical LLMs: Hype vs. Reality in Healthcare AI"
+title: "Thinking Beyond the Hype of Clinical LLMs"
 date: 2023-02-27 09:00:00 +0100
 tags:
   - llm

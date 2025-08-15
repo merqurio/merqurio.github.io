@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The European Health Data Space: Opportunities and Obstacles for Innovators"
+title: "The EHDS is Coming. Are We Ready?"
 date: 2024-09-12 09:00:00 +0100
 tags:
   - ehds

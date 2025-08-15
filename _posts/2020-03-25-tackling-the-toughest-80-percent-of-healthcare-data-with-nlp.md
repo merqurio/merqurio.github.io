@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building a Clinical NLP Pipeline: From Unstructured Text to Insights"
+title: "Tackling the Toughest 80% of Healthcare Data with NLP"
 date: 2020-03-25 09:00:00 +0100
 tags:
   - nlp

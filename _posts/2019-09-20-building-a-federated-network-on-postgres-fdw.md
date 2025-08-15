@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Architecting a Federated Data Network with PostgreSQL FDW"
+title: "Building a Federated Network on Postgres FDW"
 date: 2019-09-20 11:00:00 +0100
 tags:
   - postgresql

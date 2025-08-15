@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Real-World Data to Real Treatments: AI in Clinical Trials and Drug Development"
+title: "Shortening the Path from Real-World Data to New Treatments"
 date: 2024-05-21 09:00:00 +0100
 tags:
   - clinical-trials

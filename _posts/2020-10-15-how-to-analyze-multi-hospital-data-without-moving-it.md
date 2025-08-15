@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Privacy-Preserving Analytics: Federated Queries in Practice"
+title: "How to Analyze Multi-Hospital Data Without Moving It"
 date: 2020-10-15 12:00:00 +0100
 tags:
   - privacy

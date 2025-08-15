@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Eight Years of IOMED: Reflections from a Physician to a Founder"
+title: "Eight Years In: Reflections on the Journey from Physician to Founder"
 date: 2024-12-10 09:00:00 +0100
 tags:
   - reflection

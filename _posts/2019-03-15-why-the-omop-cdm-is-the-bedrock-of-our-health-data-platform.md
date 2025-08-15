@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "From typing clinical notes to coding SQL: Embracing OMOP for Real-World Health Data"
+title: "Why the OMOP CDM is the Bedrock of Our Health Data Platform"
 date: 2019-03-15 10:00:00 +0100
 tags:
   - omop

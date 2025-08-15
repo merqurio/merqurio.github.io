@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Scaling Up: Engineering, Team, and Strategy Through IOMED’s Series A"
+title: "Life After Series A: The Challenges of Scaling People and Tech"
 date: 2023-07-19 09:00:00 +0100
 tags:
   - scaling

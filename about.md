@@ -4,26 +4,22 @@ layout: full
 comments: false
 
 # Hero section
-title: Hi there ! I'm Gabi
-description: Medicine and coding is my thing.
+title: About Me
+description: Founder, CTO, and medical doctor at the intersection of healthcare and AI.
 
 ---
 
-I am medical doctor (M.D.) by training and mathematician by accident. During my
-work as a researcher I found out that I could fusion both passions. I started
-studying mathematics while developing my career as a doctor and today I work at
-the intersection of medicine and machine learning.
+I'm Gabi, a medical doctor, mathematician, and technologist passionate about solving healthcare's biggest challenges with data-driven solutions.
 
-That means that I use numbers to understand patients and diseases better. I
-work with large amounts of data to build tools that help us to contextualize
-all the information and make better decisions. I think it's the cross section
-between medicine and data driven technologies the one that will set the pace
-of the medicine of the future.
+### Professional Journey
 
-I'm very active in the Python and data science community and I really enjoy
-working on open source projects. I do organize datathons sometimes as it's a
-greage excuse to meet people.
+My work centers on transforming complex, real-world health data into actionable insights. As the Founder and CTO of **IOMED**, I lead a team dedicated to normalizing clinical data from millions of medical records using advanced AI, NLP, and the OMOP common data model. Our platform helps hospitals, pharmaceutical companies, and researchers accelerate clinical studies and improve patient outcomes.
 
+Before IOMED, I founded **Gradient Descent Industries (GDI)**, a venture builder where I apply a scientific, hypothesis-driven approach to developing new startups in the healthcare and AI space.
+
+I am an active participant in the European health data ecosystem, frequently collaborating with networks like OHDSI and EHDEN to advance federated data analysis and real-world evidence generation.
+
+My goal is to build robust, scalable, and ethical systems that bridge the gap between clinical practice and cutting-edge technology.
 
 ### Public GPG
 If you want to contact me in a private manner just use my public key to encrypt

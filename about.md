@@ -9,20 +9,36 @@ description: Medicine and coding is my thing.
 
 ---
 
-I am medical doctor (M.D.) by training and mathematician by accident. During my
-work as a researcher I found out that I could fusion both passions. I started
-studying mathematics while developing my career as a doctor and today I work at
-the intersection of medicine and machine learning.
+I’m Gabi, a medical doctor, mathematician, and technologist with a deep
+fascination for how data and algorithms can help solve healthcare’s most
+stubborn problems. My career has been an ongoing experiment in blending
+scientific curiosity with practical engineering, and my work has taken me from
+hospital wards to data centers, from research collaborations to startup
+boardrooms.
 
-That means that I use numbers to understand patients and diseases better. I
-work with large amounts of data to build tools that help us to contextualize
-all the information and make better decisions. I think it's the cross section
-between medicine and data driven technologies the one that will set the pace
-of the medicine of the future.
+I’ve always been driven by a need to understand systems, human, biological and
+mathematical, and to make them work better. Early on, my medical
+training taught me the importance of rigorous thinking under uncertainty;
+mathematics taught me how to frame problems precisely; technology gave me the
+tools to build solutions at scale.
 
-I'm very active in the Python and data science community and I really enjoy
-working on open source projects. I do organize datathons sometimes as it's a
-greage excuse to meet people.
+Over the years, I’ve applied these perspectives to some of the most complex
+challenges in healthcare: structuring messy clinical data, building AI models
+that can learn from it, and designing systems that can turn those insights into
+better decisions for patients and clinicians. My work often involves bridging
+worlds that don’t naturally talk to each other: clinicians and engineers,
+researchers and regulators, hospitals and industry.
+
+While I’ve founded and led companies, my real focus has always been on the
+craft — designing processes, tools, and architectures that are robust,
+ built to last and ethical. I’m particularly interested in how to validate ideas
+scientifically and scaling them into systems.
+
+Outside of formal roles, I’m an active contributor to the European health data
+community and open source communities, especially in federated data networks
+and real-world evidence initiatives. I see my work not just as building
+products, but as helping shape the infrastructure and culture that will define
+healthcare in the coming decades
 
 
 ### Public GPG

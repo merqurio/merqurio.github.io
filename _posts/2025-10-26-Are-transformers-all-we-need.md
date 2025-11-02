@@ -36,9 +36,13 @@ foundational for the AI advancements we're seeing today. As we refine data and
 models, transformers might indeed look like all we need, or at least the
 cornerstone of what's next.
 
-But then came the reality check: where do we get the data to train these
-models? Internet data isn't ideal for transformers, yet necessity demands it, a
-distant cousin that surprisingly works. What we really want is the inner
+But then comes the big challenge: where does the data for training these models
+actually come from? Most transformers are trained on huge volumes of internet
+data. That’s not ideal—this kind of data is messy, noisy, and only loosely
+matched to the skills we actually want to teach these models. Still, it’s what
+we have, and for now, it works well enough.
+
+What we really wish we had, though, is something much more valuable:
 thought monologue of the human brain: the mental trajectories during
 problem-solving. It's not just the answer, but the process of arriving at the
 answer, the dead ends, the connections, the reasoning. If we had billions of

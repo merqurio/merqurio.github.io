@@ -21,15 +21,15 @@ the oven temperature, and adjust the baking time. Each attempt is a new
 experiment with a specific set of decisions. Each decision on the amount of
 ingredients, temperature, baking time, humidity etc., is a variable to take into
 account. e.g., 200g of flour, 220g of sugar, 2 eggs, 35 mins in the oven,
-180º... 
+180º...
 
 Consider a couple of scenarios:
 
-*   **Experiment 1:** 
-    * High heat (250º), short time (10 mins). 
+*   **Experiment 1:**
+    * High heat (250º), short time (10 mins).
     * _Result_: Burnt on the outside and raw on the inside.
-*   **Experiment 2:** 
-    * Low heat (120º), long time (2 hours). 
+*   **Experiment 2:**
+    * Low heat (120º), long time (2 hours).
     * _Result_: Dry and hard.
 
 The combinations seem endless, but are they? Can we create enough experiments to
@@ -44,7 +44,7 @@ mins, 60 mins, 90 mins, max.
 | **100º** | 🫠 | 🫠 | 🫠 | 🍰 |
 | **150º** | 🫠 | 🫠 | 🍰 | 🪨 |
 | **200º** | 🫠 | 🍰 | 🪨 | 🔥 |
-| **Max**  | 🪨 | 🔥 | 🔥 | 🔥 | 
+| **Max**  | 🪨 | 🔥 | 🔥 | 🔥 |
 
 ![A bot thinking how to use an oven](/assets/images/uploads/ai/1.webp)
 
@@ -70,10 +70,10 @@ write in a language?
 What guides our improvements?
 
 For a cake, we need clear metric for success. Is it delicious? Is the texture
-right? Does it look good? These metrics guide our next attempts. 
+right? Does it look good? These metrics guide our next attempts.
 
 Is there a way to gather an enormous amount of feedback on the cake, knowing
-the settings we used to cook each of those cakes? 
+the settings we used to cook each of those cakes?
 
 Let's do a thought experiment. Let's imagine we have access to all the kids in a
 school to let them all try a piece of multiple cakes and get their feedback.
@@ -109,7 +109,7 @@ We then use a metric to evaluate this success. In the AI world this is called a
 the prediction of the machine learning model is correct. It's just a
 mathematical way to tell the AI how well it's doing. The goal is always to
 minimize _"error"_ or _"cost"_ that the function yields and maximize accuracy,
-just as we try to bake a cake that maximizes deliciousness. 
+just as we try to bake a cake that maximizes deliciousness.
 
 The idea is to perform a search for the optimal set of parameters in a process
 known as [**training**][14].
@@ -121,7 +121,7 @@ the cake.
 
 ![Flour is transformed into a cake](/assets/images/uploads/ai/transform1.png)
 
-Data is the raw material for machine learning. 
+Data is the raw material for machine learning.
 
 ![Examples of AI input data](/assets/images/uploads/ai/material.png)
 
@@ -156,14 +156,14 @@ Intellectual tasks are much harder to define and measure than physical ones. It
 is often unclear exactly how these tasks should be performed or how repeatable
 the results can be (_e.g. the task of extracting information from a document
 might seem straightforward, but every document and topic has its own unique
-nuances_). 
+nuances_).
 
 A traditional machine is like a baker with a perfect, unchanging recipe for one
 type of cake. An AI is like asking a oven to consistently produce a delicious
 result, even when the flour is a bit different, the eggs are a
 different size, and the customer asks for a slightly different flavor.
 
-Might be feasible? yes, but it's much harder. 
+Might be feasible? yes, but it's much harder.
 
 ![An ML model in a big industrial setting](/assets/images/uploads/ai/6.webp)
 
@@ -173,13 +173,13 @@ Might be feasible? yes, but it's much harder.
 If we only train our machine learning model only to create chocolate cakes, it
 might become an expert at making chocolate cakes but fail spectacularly when
 asked to bake a vanilla cake. If we ask the model to bake a pizza instead of a
-cake, would it work? The cake recipe and experience will not be very helpful. 
+cake, would it work? The cake recipe and experience will not be very helpful.
 
 If a machine learning model that is trained on a very specific dataset, cannot
 generalize to new, unseen data. This phenomenon is known as
 [overfitting][2]. The model has effectively memorized the "recipe" for
 chocolate cakes but hasn't learned the underlying principles of baking.
-[Generalization][1] is key for model that performs well. 
+[Generalization][1] is key for model that performs well.
 
 #### Do we trust the kids?
 
@@ -199,7 +199,7 @@ Techniques like [cross-validation][3] can be used to check if the model can
 generalize. Instead of just one group of kids tasting the cake, we could try it
 with multiple, different groups (e.g. kids, adults, elders). If all groups like
 the cake, we can be more confident that our recipe is genuinely good and not
-just tailored to one specific palate. 
+just tailored to one specific palate.
 
 This can also happen if the friction to answer the questions about the cake is
 too high (they have to fill a long form) and/or our kids and adults too lazy. If
@@ -214,7 +214,7 @@ reliable.
 Imagine we set the metric for a "good" cake is its weight. We optimize the
 recipe to produce the heaviest cake possible. We will get a dense, heavy cake.
 We succeeded on the metric, but failed at the goal. This [goal
-misalignment**][7] happens when the metric we optimize (weight) doesn't align
+misalignment][7] happens when the metric we optimize (weight) doesn't align
 with our true goal (deliciousness). This is also known as _"reward hacking"_,
 where the AI finds a shortcut to maximize its reward without achieving the
 intended outcome.
@@ -239,7 +239,7 @@ reliable is crucial. For example, a validation rule could check the weight and
 volume of the chocolate. This ensures the ratio is reasonable and the data makes
 sense before it's fed to the model.
 
-#### Can I trust the oven? And the suppliers? 
+#### Can I trust the oven? And the suppliers?
 
 Even if the oven produces a perfect cake, we have no idea how. We haven't
 learned a thing about it. If it suddenly produces a terrible cake, we have no

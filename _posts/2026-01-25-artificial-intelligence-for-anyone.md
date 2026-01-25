@@ -4,10 +4,10 @@ title: "What baking can teach us about Machine Learning"
 date:   2026-01-25 13:17:40 +0100
 ---
 
-This is an excerpt from a talk I gave about AI for a non-technical audience. I
-created the images using DALL-E in 2024. The main goal was to build intuition
-on how machine learning works, as well as the types of failure modes one can
-expect.
+Have you ever wondered how an AI can create a stunning image or write a poem?
+The process is surprisingly similar to baking a cake, especially when you don't
+have a recipe. In this post, we'll explore how the simple act of baking can help
+us build intuition for how machine learning works.
 
 ### Baking a cake
 
@@ -93,14 +93,16 @@ best result, slightly change them and repeat the evaluation from the kids to
 look for an even more optimized outcome. In an endless loop. Until we find
 **the** perfect cake.
 
+This cycle of baking, getting feedback, and adjusting the recipe is the core of
+how a machine learning model learns.
+
 ![A data room with all the results and analysis of the evaluation](/assets/images/uploads/ai/5.webp)
 
-We follow a very similar process with machine learning. Instead of kids tasting
-cakes, we show the algorithm thousands of examples where we already know the
-correct answer. We then compare the machine's _"attempt"_ to these known
-examples to see how close it got. It’s like comparing our experimental cake
-to a "perfect" version: the further away the result is from the goal, the 
-more we know we need to adjust our settings.
+Instead of kids tasting cakes, we show the algorithm thousands of examples where
+we already know the correct answer. We then compare the machine's _"attempt"_ to
+these known examples to see how close it got. It’s like comparing our
+experimental cake to a "perfect" version: the further away the result is from
+the goal, the more we know we need to adjust our settings.
 
 We then use a metric to evaluate this success. In the AI world this is called a
 [**loss function**][13]. It can be the likelyness to ask that cake again, or if
@@ -112,20 +114,20 @@ just as we try to bake a cake that maximizes deliciousness.
 The idea is to perform a search for the optimal set of parameters in a process
 known as [**training**][14].
 
-#### How does data relate to this
+#### What are the tools and material for baking a machine learning model?
 
 Raw material, flour, sugar, chocolate, enters an oven and produces a product,
 the cake.
 
 ![Flour is transformed into a cake](/assets/images/uploads/ai/transform1.png)
 
-Data is the raw material for AI. 
+Data is the raw material for machine learning. 
 
 ![Examples of AI input data](/assets/images/uploads/ai/material.png)
 
-Some data enters an AI model and produces a product, in the form of data. e.g.
-an image (which is data), get's into the model and produces an output in the
-form of a number from 0 to 9.
+Data, the raw material, enters a machine learning model and produces a product,
+in the form of data. e.g. an image (which is data), get's into the model and
+produces an output in the form of a number from 0 to 9.
 
 ![An image is transformed into integer](/assets/images/uploads/ai/transform2.png)
 
@@ -133,42 +135,38 @@ The ingredients (our input data) are fed into the oven (the AI model), which
 processes them and produces a finished product (the output data). This could be
 a prediction, a classification, a translation, or even a newly generated image.
 
-
-#### Why is it so hard to get AI right?
-
-* Machines replace repetitive physical tasks.
-* AI replaces repetitive intellectual tasks.
-
-For centuries, we have built machines to automate physical labor and produce the
-exact same product again and again. These machines are predictable, a cake
-created with a precise recipe will consistently have the same taste and texture.
-Because the raw materials and the process remain constant, variability is low.
-As a result, our tolerance for error is minimal and our expectations for
-repeatability are high.
-
-![An ML model in a big industrial setting](/assets/images/uploads/ai/6.webp)
-
-Intellectual tasks are much harder to define and measure than physical ones. It
-is often unclear exactly how these tasks should be performed or how repeatable
-the results can be (e.g. extracting information from a document might seem
-straightforward, but every document and topic has its own unique nuances).
-
-We expect AI to handle this variety, yet the real challenge lies in evaluating a
-machine's performance when we require the flexibility to adapt to those subtle
-differences.
-
-It is like asking a cake-making machine to consistently produce good results
-even if the raw material might be different each time and we might ask for
-slightly different cakes every time. Might be feasible, yes, but it's much
-harder. The experience of the operator, the quality of the raw materials are
-some times as important as the process itself.
-
-### Failure modes
+### Why is it so hard to get machine learning right?
 
 Now that we understand how machine learning models are created, let’s consider
 how they can fail.
 
-![A bot thinking how to use an oven](/assets/images/uploads/ai/7.webp)
+* Machines replace repetitive physical tasks.
+* AI replaces repetitive intellectual tasks.
+
+![A bot checking why it's cake failed](/assets/images/uploads/ai/7.webp)
+
+For centuries, we have built machines to automate physical labor and produce the
+exact same product again and again. These machines are predictable, a cake
+created with a machine and a recipe will consistently have the same taste and
+texture. Because the raw materials and the process remain constant, variability
+is low. As a result, our tolerance for error is minimal and our expectations for
+repeatability are high.
+
+Intellectual tasks are much harder to define and measure than physical ones. It
+is often unclear exactly how these tasks should be performed or how repeatable
+the results can be (_e.g. the task of extracting information from a document
+might seem straightforward, but every document and topic has its own unique
+nuances_). 
+
+A traditional machine is like a baker with a perfect, unchanging recipe for one
+type of cake. An AI is like asking a oven to consistently produce a delicious
+result, even when the flour is a bit different, the eggs are a
+different size, and the customer asks for a slightly different flavor.
+
+Might be feasible? yes, but it's much harder. 
+
+![An ML model in a big industrial setting](/assets/images/uploads/ai/6.webp)
+
 
 #### Is really chocolate the answer? Can the model cook other things?
 
@@ -234,18 +232,18 @@ handling missing values, and standardizing formats in the dataset. It’s the
 equivalent of sifting the flour, discarding bad eggs, and ensuring all
 measurements are precise before baking.
 
-This principle is often refer as _"garbage in, garbage out"_. No matter how
-sophisticated the model, it cannot create a good result from poor-quality raw
-materials. Automated checks and rules to ensure the [data is valid][9] and
+This principle is often referred to as _"garbage in, garbage out"_. No matter
+how sophisticated the model, it cannot create a good result from poor-quality
+raw materials. Automated checks and rules to ensure the [data is valid][9] and
 reliable is crucial. For example, a validation rule could check the weight and
 volume of the chocolate. This ensures the ratio is reasonable and the data makes
 sense before it's fed to the model.
 
-#### Can I trust the oven? And our suppliers? 
+#### Can I trust the oven? And the suppliers? 
 
 Even if the oven produces a perfect cake, we have no idea how. We haven't
 learned a thing about it. If it suddenly produces a terrible cake, we have no
-easy way of understandin why because the process is a a black box mystery. Some
+easy way of understanding why because the process is a a black box mystery. Some
 time a tiny, often imperceptible change can cause the end product to be
 completly wrong.
 
@@ -275,8 +273,8 @@ easier to understand how things can go wrong. By demystifying these tools, we
 can leverage years of risk management from various industrial settings to
 professionalize the evaluation and productionalization of models.
 
-I hope this analogy was helpful to you, whether you are new to the subject or an
-expert looking for a fresh way to demystify your work.
+Whether you're new to the subject or an expert looking for a fresh way to
+explain your work, I hope this analogy has provided some food for thought 🍰.
 
 
 [1]: https://en.wikipedia.org/wiki/Generalization_error

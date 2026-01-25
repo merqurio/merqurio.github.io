@@ -4,48 +4,51 @@ layout: full
 comments: false
 
 # Hero section
-title: Hi there ! I'm Gabi
-description: Medicine and coding is my thing.
+title: Hi there ! I'm Gabi ✌️
+description: Building things in the medical data world is my thing.
 
 ---
 
-I’m Gabi, a medical doctor, mathematician, and technologist with a deep
-fascination for how data and algorithms can help solve healthcare’s most
-stubborn problems. My career has been an ongoing experiment in blending
-scientific curiosity with practical engineering, and my work has taken me from
-hospital wards to data centers, from research collaborations to startup
-boardrooms.
+I’m Gabi, a medical doctor, mathematician, and scientist with a deep fascination
+for how data and algorithms can help solve healthcare’s most complex problems.
+My career has been an ongoing experiment in blending scientific curiosity with
+practical engineering, and my work has taken me from hospital wards to data
+centers, from research collaborations to startup boardrooms.
 
-I’ve always been driven by a need to understand systems, human, biological and
-mathematical, and to make them work better. Early on, my medical
-training taught me the importance of rigorous thinking under uncertainty;
-mathematics taught me how to frame problems precisely; technology gave me the
-tools to build solutions at scale.
+I’ve always been driven by a need to understand complex systems such as the
+human body, the underlying biology, computational systems and the underlying
+mathematics. Early on, my medical training taught me the importance of rigorous
+thinking under uncertainty; mathematics taught me how to frame problems
+precisely; technology gave me the tools to build solutions at scale.
 
 Over the years, I’ve applied these perspectives to some of the most complex
-challenges in healthcare: structuring messy clinical data, building AI models
-that can learn from it, and designing systems that can turn those insights into
-better decisions for patients and clinicians. My work often involves bridging
-worlds that don’t naturally talk to each other: clinicians and engineers,
-researchers and regulators, hospitals and industry.
+challenges in healthcare: structuring clinical data, building AI models that can
+learn from it, and designing systems that can turn those insights into better
+decisions for patients and clinicians. My work often involves bridging worlds
+that don’t naturally talk to each other: clinicians and engineers, researchers
+and regulators, hospitals and industry.
 
 While I’ve founded and led companies, my real focus has always been on the
-craft — designing processes, tools, and architectures that are robust,
- built to last and ethical. I’m particularly interested in how to validate ideas
-scientifically and scaling them into systems.
+craft, designing processes, tools, and architectures that are robust, built to
+last. I’m particularly interested in how to validate ideas scientifically and
+scaling them into the real world.
 
-Outside of formal roles, I’m an active contributor to the European health data
-community and open source communities, especially in federated data networks
-and real-world evidence initiatives. I see my work not just as building
-products, but as helping shape the infrastructure and culture that will define
-healthcare in the coming decades
+Outside of formal roles, I’m an active contributor to multiple open source/open
+science communities, especially in federated clinical research networks and data
+related initiatives. I see my work not just as building products, but as helping
+shape the infrastructure and culture that will define healthcare in the coming
+decades
 
 
 ### Public GPG
+
 If you want to contact me in a private manner just use my public key to encrypt
 your stuff.
 
-```
+<details>
+    <summary>Public Key</summary>
+
+<pre class="highlight"><code>
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mQINBFaNMVMBEADN0qehvqcweihS7B370qm+nSx4FrukS5zjt6vXVLV6tI3sn1sv
@@ -98,4 +101,6 @@ dH3XygdVfCG6geJDstahNKuvRhqi+vOLRfY/clCfdrQQOjVIV0wZkJPKQwlH4YJA
 BSQMML9EvvHo
 =AeoA
 -----END PGP PUBLIC KEY BLOCK-----
-```
+</code></pre>
+
+</details>

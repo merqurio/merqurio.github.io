@@ -14,6 +14,6 @@ author:
     title: About 
     title_url: '/about'
     external_url: false
-    description: Hi! I'm Gabi, a medical doctor with a passion for math and data visualization.
+    description: Hi! I'm Gabi, a medical doctor with a passion for math and data.
 
 ---

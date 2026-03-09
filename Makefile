@@ -1,3 +1,5 @@
+BUNDLE := $(shell command -v rbenv >/dev/null 2>&1 && echo "rbenv exec bundle" || echo "bundle")
+
 .DEFAULT_GOAL := help
 .PHONY: help install serve
 
@@ -7,7 +9,7 @@ help:
 	@echo "  serve     - Start the Jekyll local server"
 
 install:
-	bundle install
+	$(BUNDLE) install
 
 serve:
-	bundle exec jekyll serve
+	$(BUNDLE) exec jekyll serve

@@ -21,7 +21,16 @@ We don't have human users fighting for CPU cycles; we have containerized process
 
 If you spend enough time reading HackerNews or browsing GitHub, you inevitably fall down the rabbit hole of edge computing. That's where I found my solution: the [Turing Pi 2](https://turingpi.com/).
 
-Instead of an old laptop, I could have a mini-ITX board hosting up to four ARM64 compute modules. I went with four RK1 modules, giving me a true physical cluster. It felt like holding a miniature enterprise datacenter. The Baseboard Management Controller (BMC) meant I could power-cycle and flash nodes without ever physically touching them.
+Instead of an old laptop, I could have a mini-ITX board hosting up to four ARM64 compute modules. I needed density without the heat. My final bill of materials felt like a recipe for a perfect edge datacenter:
+
+- **The Chassis:** A Turing Pi 2 Baseboard Management Controller (BMC)
+- **The Compute:** 4x Turing RK1 ARM64 nodes (32GB RAM each)
+- **The Fast Lane:** 4x 100GB NVMe SSDs (one per node)
+- **The Deep Storage:** 8x 500GB SATA HDDs distributed across the cluster
+
+It felt like holding a miniature enterprise datacenter. The BMC meant I could power-cycle and flash nodes without ever physically touching them. When you are provisioning bare metal, network access is a luxury you rarely have on day one. Having the BMC felt like a cheat code. I could flash a fresh metal image directly to a node's NVMe drive over SSH just by running `tpi flash --image-path "/mnt/sdcard/metal-arm64.raw" --node 1`. 
+
+And when things inevitably went wrong before the network stack came up, I didn't have to drag a monitor and a keyboard to the rack. I just dropped into the serial console (`picocom /dev/ttyS1 -b 115200`). Finding that correct baud rate took me longer than I'd like to admit, but once it connected, it made debugging the early boot sequence incredibly easy.
 
 If I was going to build a proper cluster, I needed to rethink networking. My old setup relied on watchdogs to track dynamic IPs and update DNS records. I was constantly dealing with IP blacklists and the anxiety of botnets scanning my exposed ports. It’s really cold out there on the public internet.
 
@@ -33,7 +42,7 @@ When building a Kubernetes cluster, the OS is often the most tedious part. I was
 
 But what about the data? The ghost of my corrupted Postgres database still haunted me. 
 
-Stateful workloads on Kubernetes are scary if you don't know what you are doing. I solved the storage layer with **Longhorn**, pooling my NVMe and HDD drives into a distributed block storage system. 
+Stateful workloads on Kubernetes are scary if you don't know what you are doing. I solved the storage layer with **Longhorn**, pooling my NVMe and HDD drives into a distributed block storage system. But not all data is created equal, and neither were my disks. This is where Longhorn's disk tagging became critical. By tagging the NVMe drives as `ssd` and the SATA drives as `hdd`, I could map Kubernetes StorageClasses to specific performance tiers. Databases and active caches automatically provisioned on the fast NVMe tier, while bulky logs and backups safely landed on the slower, high-capacity SATA drives. It gave me cloud-provider-like storage tiering, completely locally. 
 
 For the database itself, I turned to the **[Crunchy Data Postgres Operator](https://github.com/CrunchyData/postgres-operator)**. An "Operator" in Kubernetes is essentially software that manages other software. Instead of me manually configuring replication, backups, and WAL archiving, the Operator does it automatically. It makes running highly-available Postgres feel like magic. 
 

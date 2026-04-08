@@ -2,7 +2,7 @@
 layout: post
 title: Datacenter in a Box
 subtitle: "A deep dive into Talos Linux, Kubernetes, and self-hosting my entire business stack on four RK1 compute modules."
-date: 2026-04-09 00:00:00 Z
+date: 2026-04-08
 author: "Gabriel Maeztu"
 tags: ["homelab", "kubernetes", "talos", "arm64", "self-hosting"]
 ---

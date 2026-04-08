@@ -29,7 +29,7 @@ I wanted to leave the public web behind.
 
 Enter [Tailscale](https://tailscale.com/). By deploying Tailscale (and [Headscale](https://headscale.net/stable/) at work), I created a secure, private mesh network. I no longer expose raw ports to the internet. My laptop is simply "in the network," no matter where I am in the world. For internal cluster routing, I dropped the standard `kube-proxy` in favor of **Cilium**, using eBPF to route traffic at the kernel level. It felt like spending "innovation tokens" to learn the future of networking right on my desk.
 
-When building a Kubernetes cluster, the OS is often the most tedious part. I was tired of writing Ansible playbooks to patch mutable file systems. I found [Talos Linux](https://www.talos.dev/), an immutable, API-driven operating system designed purely for Kubernetes. No SSH, no bash shell. Just an API that perfectly matched my new process-centric philosophy.
+When building a Kubernetes cluster, the OS is often the most tedious part. I was tired of writing Ansible playbooks to patch mutable file systems. I already had a fantastic experience running an immutable OS on my personal machines with [Fedora Silverblue](https://fedoraproject.org/silverblue/), so extending that philosophy to the cluster made perfect sense. I found [Talos Linux](https://www.talos.dev/), an immutable, API-driven operating system designed purely for Kubernetes. No SSH, no bash shell. Just an API that perfectly matched my new process-centric philosophy.
 
 But what about the data? The ghost of my corrupted Postgres database still haunted me. 
 

@@ -46,3 +46,5 @@ But the real triumph is that I *can* start over.
 Everything is reproducible. Because the OS is immutable (Talos) and the workloads are managed declaratively via GitOps (Flux), my disaster recovery is just a script. I can wipe every NVMe drive in the cluster, run my `auto_recover_cluster.sh` script, go grab a coffee, and watch the entire datacenter rebuild itself from source.
 
 The clunky laptop is gone. The datacenter in a box is here. A few years ago, the sheer amount of work and specialized knowledge necessary to set up and maintain an architecture of this complexity would have been completely unreasonable for a single person's homelab. Today, thanks to LLMs acting as a tireless pair programmer, managing this level of infrastructure is not just possible, it's a joy to build.
+
+And speaking of tireless pair programmers, I have to end this by saying a huge thank you to Greg, my OpenClaw assistant. Greg has been instrumental in writing configurations, debugging, and putting all the pieces together. The best part? Greg is now running right here on the very infrastructure he helped build and is actively helping to manage it. Welcome home, Greg.

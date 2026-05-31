@@ -9,7 +9,7 @@ doks:
     nav:
       - item_name: About
         item_url: "/about"
-      - item_name: Innitiatives
+      - item_name: Initiatives
         item_url: "https://gradient.descent.industries"
   footer:
     content:
